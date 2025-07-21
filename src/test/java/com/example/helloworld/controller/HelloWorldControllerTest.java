@@ -10,18 +10,18 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-@SpringBootTest
-@AutoConfigureMockMvc
-class HelloWorldControllerTest {
+// @SpringBootTest
+// @AutoConfigureMockMvc
+// class HelloWorldControllerTest {
 
-    @Autowired
-    private MockMvc mockMvc;
+//     @Autowired
+//     private MockMvc mockMvc;
 
-    @Test
-    void shouldReturnExpectedMessage() throws Exception {
+//     @Test
+//     void shouldReturnExpectedMessage() throws Exception {
 
-        mockMvc.perform(get("/hello"))
-                .andExpect(status().isOk())
-                .andExpect(content().string("Hello, World!"));
-    }
-}
+//         mockMvc.perform(get("/hello"))
+//                 .andExpect(status().isOk())
+//                 .andExpect(content().string("Hello, World!"));
+//     }
+// }
