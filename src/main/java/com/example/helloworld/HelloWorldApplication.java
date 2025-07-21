@@ -28,3 +28,10 @@ public class HelloWorldApplication {
         SpringApplication.run(HelloWorldApplication.class, args);
     }
 }
+
+class hello_world_application2 {
+    public static void main(String[] args) {
+        // This is a placeholder for the second version of the application
+        System.out.println("Hello World Application Version 2");
+    }
+}
